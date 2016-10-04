@@ -1,0 +1,42 @@
+body{font:12px/1.5 Tahoma,"Hiragino Sans GB","Microsoft YaHei",arial,simsun,sans-serif;
+}
+#wrap{width:1190px;margin:auto;height:auto;}
+/******顶部导航******/
+.top{width:1190px;height:110px;top:0;z-index:90;;
+	position:fixed;border-bottom: 2px solid #ddd;background-color: #fff;}
+
+.logo{display:block;width:200px;height:50px;
+	margin-top:25px;
+	background:url(../images/base/spirite.png) left top no-repeat;}
+.login{float:right;line-height: 20px;margin-top:10px;
+	margin-bottom:15px;}
+.login a,.login span{color:#9f9f9f;margin-left:5px;margin-right:5px;}
+.login a:hover{color:#ef4222;}
+.login .cart_0{margin-left:10px;margin-right:10px;}
+.top_nav{width:850px;border-bottom: 1px solid #fff;}
+.top_nav li{float:left;}
+.top_nav a{display: block;padding:10px 20px 10px 20px;color:black;
+	line-height:40px; font-size: 16px;}
+.top_nav a:hover{background-color:#FF6800;}
+.top_nav form{border:1px solid #999;width:162px;height:28px;margin-top:15px;}
+.top_nav input{border:none;height:28px;}
+.top_nav .txt{float:left;width:120px;line-height: 28px;padding-left:10px;}
+.top_nav #btn{background:#fff url(../images/base/spirite.png) -231px 2px;width:30px;}
+/*****轮播图****/
+#loop{width:100%;overflow:hidden;margin-top:110px;position:relative;}
+#loop .pics li{float:left;}
+#loop .pics{width:5950px;overflow: hidden;}
+#loop .pics:hover .slide_right{display:block;}
+#loop .pics:hover .slide_left{display:block;}
+.opt{overflow: hidden;width:160px;margin:0 auto;}
+.opt li{float:left;width:22px;margin-right:10px;cursor:pointer;
+	height:22px;background:url(../images/base/spirite.png) -245px -28px;}
+.opt li:hover{background:url(../images/base/spirite.png) -209px -28px;}
+.slide_left,.slide_right{height:72px;width:41px;position:absolute;display: none;}
+.slide_left{background:url(../images/base/spirite.png) -300px -575px;left:0;top:170px;}
+.slide_right{background:url(../images/base/spirite.png) -340px -575px;right:0;top:170px}
+
+
+
+
+
